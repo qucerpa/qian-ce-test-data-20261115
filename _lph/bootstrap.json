@@ -1,0 +1,31 @@
+{
+  "protocol": "LPHBUS01",
+  "projectId": "15cadb02-8cd7-4cd6-9b47-137043f177ae",
+  "releaseId": "04f878b886b308dc55281acb45c9dda4cd7bef9c2f48cfa66bac32b28376c7d1",
+  "sequence": 1,
+  "issuedAt": "2026-11-15T10:23:08.522Z",
+  "keyId": "2d5fb8603410dee4062199e966428c33",
+  "index": {
+    "path": "_lph/releases/04f878b886b308dc55281acb45c9dda4cd7bef9c2f48cfa66bac32b28376c7d1/business-index.enc",
+    "size": 9540,
+    "sha256": "8d614dc497e6f5dbd8474b3b83173a299d5d1645ed3fa010cffebb596069ba0c"
+  },
+  "fileCount": 10,
+  "signing": {
+    "algorithm": "Ed25519",
+    "publicKey": "MCowBQYDK2VwAyEAccUmJHpWLU1hX0dnHxN-k7SgJ-7feKLNrROg3hY9nVQ",
+    "keyId": "a629487c64cc51d5f5ffefd8d7f62d08"
+  },
+  "readers": [
+    {
+      "appId": "9226fe4d-241c-468c-871f-4d7952018baf",
+      "credentialVersion": 1,
+      "algorithm": "AES-256-GCM",
+      "nonce": "cNq7nB8I17PMmlsf",
+      "wrappedKey": "ukl1dZgOoR--i9SEdxycy5kzeJ1G41yxolPB6vGMHB2n-kwqaj3_Jrczp4w65OyD",
+      "aad": "LPHBUS01|15cadb02-8cd7-4cd6-9b47-137043f177ae|9226fe4d-241c-468c-871f-4d7952018baf|04f878b886b308dc55281acb45c9dda4cd7bef9c2f48cfa66bac32b28376c7d1|1|2d5fb8603410dee4062199e966428c33"
+    }
+  ],
+  "status": "candidate",
+  "signature": "Ldmc7l5Xb6Tmwe71QPrwQEHxxncVBj37hppjSGDm859rvq6MBo2y2GEj2ei8WpF07OL2n2YA8+PCF187KmjtBg=="
+}
